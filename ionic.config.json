@@ -1,5 +1,7 @@
 {
   "name": "exemplo-googlemaps",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
