@@ -19,18 +19,6 @@ export class NavMap_3Page extends AbstractPage {
 	super(mapProvider);
   }
 
-  ionViewDidLeave() {
-    if (this.mapProvider.getMapInstance()) {
-      this.mapProvider.getMapInstance().setDiv();
-    }
-  }
-
-  ionViewDidEnter() {
-    if (this.mapProvider.getMapInstance()) {
-		this.mapProvider.getMapInstance().setDiv(this.mapElement.nativeElement);
-    }
-  }
-
   ionViewDidLoad() {
 	this.setMapElement(this.mapElement);
 	this.initMap();

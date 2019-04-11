@@ -53,7 +53,7 @@
     "cordova": {
         "plugins": {
             "cordova-plugin-googlemaps": {
-                "API_KEY_FOR_ANDROID": "---"
+                "API_KEY_FOR_ANDROID": "AIzaSyB9tZiRfhlzsthLg-r9oWPAUpf1lT8Bq3s"
             },
             "cordova-plugin-device": {},
             "cordova-plugin-ionic-keyboard": {},
